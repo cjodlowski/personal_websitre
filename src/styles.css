@@ -1,0 +1,11 @@
+.height100 {
+    height: 100vh;
+}
+
+.width100 {
+    max-width: 100vw;
+}
+
+.icons {
+    margin-right: 8px;
+}
