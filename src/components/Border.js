@@ -5,7 +5,7 @@ import '../styles.css'
 
 const Border = () => {
     return(
-        <div className="d-none d-md-block col-md-2 col-lg-3 col-xl-3  height100 bg-dark">
+        <div className="d-none d-md-block col-md-2 col-lg-3 col-xl-2  height100 border-color">
             
             
         </div>
