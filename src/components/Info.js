@@ -12,7 +12,7 @@ class Info extends Component {
                  {/* Header */}
                  <div className="p2">
                     <div className="top-space"></div>
-                    <h1 className="primary-text">Claudia Jodlowski</h1>
+                    <h1 className="primary-text sans-serif">Claudia Jodlowski</h1>
                     <div>
                         <i className="fab fa-linkedin fa-lg icons accent-color-2"></i>
                         <i className="fab fa-github fa-lg icons accent-color-2"></i>
@@ -24,13 +24,14 @@ class Info extends Component {
                     <a className="link-text">(732) - 540 - 3526 </a>
                     </p>
                     {/* About me */}
-                    <div className="pt-4 ps-2 text-color">
-                        <h2 className= "link-text">About Me</h2>
-                        <p className="text-start primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a cursus erat. Ut sed bibendum nibh, et finibus leo. Vivamus eu viverra augue. Ut vitae ornare purus. Sed in ex at mi aliquet sodales nec in arcu. Nam in varius nisl. Maecenas posuere libero et nisl rhoncus malesuada. Cras eleifend eleifend quam quis commodo. In hac habitasse platea dictumst. Fusce nec mollis sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum suscipit mollis. Duis eu dolor risus. Vestibulum felis ipsum, elementum eu consectetur eu, viverra eu neque. Morbi dictum id neque ut dapibus. </p>
+                    <div className="pt-4 ps-2 text-start">
+                        <h2 className= "primary-text sans-serif">Hey There!</h2>
+                        <p className="text-start primary-text serif p-font-size"></p>
+                        <p className="text-start primary-text serif p-font-size">Blah blah ik how to talk aboutmyself totally</p>
                     </div>
                     {/*Projects*/}
                     <div className="pt-5 link-text">
-                        <h2>Projects</h2>
+                        <h2 className= "primary-text sans-serif">Projects</h2>
                         <div className="row justify-content-center">
                             {projects.map((project) => {
                                 return <ProjectCard item={project}></ProjectCard>

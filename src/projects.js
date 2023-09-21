@@ -1,11 +1,12 @@
 export const projects = [
     {
         title: "Swapper!",
-        logo: "images/IC.png",
-        summary: "summary summary",
+        logo: "images/swapper.png",
+        summary: "A competitive rhythm based arcade game - shoot opponents to teleport them into hazards!",
         bullets: [
-            "one thing",
-            "two thing"
+            "Took over the project as main programmer",
+            "My Introduction to local multiplayer and the new unity input system",
+            "Current focus is tweaking mechanics and menu implementation"
         ],
         link: {
             ref:"#",
@@ -13,22 +14,9 @@ export const projects = [
         }
     },
     {
-        title: "Inconvience Store",
+        title: "Inconvenience Store",
         logo: "images/IC.png",
-        summary: "summary summary",
-        bullets: [
-            "one thing",
-            "two thing"
-        ],
-        link: {
-            ref:"#",
-            text: "Click me!"
-        }
-    },
-    {
-        title: "Good Housekeyping",
-        logo: "images/IC.png",
-        summary: "summary summary",
+        summary: "",
         bullets: [
             "one thing",
             "two thing"
@@ -40,6 +28,32 @@ export const projects = [
     },
     {
         title: "Good Housekeyping",
+        logo: "images/IC.png",
+        summary: "summary summary",
+        bullets: [
+            "one thing",
+            "two thing"
+        ],
+        link: {
+            ref:"#",
+            text: "Click me!"
+        }
+    },
+    {
+        title: "SDL Wind Shader",
+        logo: "images/IC.png",
+        summary: "summary summary",
+        bullets: [
+            "one thing",
+            "two thing"
+        ],
+        link: {
+            ref:"#",
+            text: "Click me!"
+        }
+    },
+    {
+        title: "SDL Platformer Game Engine",
         logo: "images/IC.png",
         summary: "summary summary",
         bullets: [

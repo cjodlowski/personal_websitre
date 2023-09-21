@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
 :root {
     --primary-100: #84BC8B;
     --primary-300: #4A8754;
@@ -7,6 +9,9 @@
 
     --accent-color-1: #f9fdd3;
     --accent-color-2: #cb6f45;
+
+    --sans-serif: 'Oswald', sans-serif;
+    --serif: 'IBM Plex Serif', serif;
 }
 
 
@@ -35,8 +40,20 @@ body {
     background-color: var(--primary-500);
 }
 
+.serif {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.sans-serif {
+    font-family: 'Oswald', sans-serif;
+}
+
 .primary-text {
     color: var(--primary-100);
+}
+
+.p-font-size {
+    font-size: 20px;
 }
 
 .link-text {
@@ -47,21 +64,32 @@ body {
     border-radius: 0%;
     background-color: var(--primary-700);
     border-color: var(--primary-500);
-    border-width: 3px;
+    border-width: 4px;
 }
 
 .card-header.override-bs {
     border-bottom: 0px;
+    background-color: var(--primary-700);
 }
 
 h1, h2, h3 {
     font-family: Helvetica
 }
 
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: var(--primary-100);
+}
+
 .img-border {
     border-color:var(--primary-900);
     border-style: solid;
     border-width: 2px;
+    aspect-ratio: 4 / 3;
 }
 
 .btn-primary.override-bs {
@@ -70,3 +98,28 @@ h1, h2, h3 {
 .top-space {
     height: 50px
 }
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: var(--primary-100);
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:var(--primary-100);
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
