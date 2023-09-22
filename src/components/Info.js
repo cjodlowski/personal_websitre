@@ -32,8 +32,10 @@ class Info extends Component {
                     {/*Projects*/}
                     <div className="pt-5 link-text second-background">
                         <h2 className= "primary-text header-deco sans-serif">Projects</h2>
-                        <button className= "btn btn-primary btn-lg override-bs sans-serif button-border m-3">Game</button>
-                        <button className= "btn btn-primary btn-lg override-bs sans-serif button-border m-3">Tech</button>
+                        <div className="align-items-center">
+                            <button className= "btn btn-primary btn-lg override-bs sans-serif button-border project-button m-3">Game</button>
+                            <button className= "btn btn-primary btn-lg override-bs sans-serif button-border project-button m-3">Tech</button>
+                        </div>
                         <div className="row justify-content-center">
                             {projects.map((project) => {
                                 return <ProjectCard item={project}></ProjectCard>
@@ -42,7 +44,7 @@ class Info extends Component {
                     </div>
                     {/*Resume*/}
                     <div className="pt-5 mb-5">
-                        <a type="button" href="JodlowskiClaudia_Resume.docx" class="btn btn-primary btn-lg override-bs button-border" download>Check Out My Resume</a>
+                        <a type="button" href="JodlowskiClaudia_Resume.docx" class="btn btn-primary btn-lg override-bs sans-serif button-border" download>Check Out My Resume</a>
                     </div>
                  </div>
     

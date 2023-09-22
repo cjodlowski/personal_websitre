@@ -111,6 +111,11 @@ a:hover {
     border-radius: 0%;
 }
 
+.project-button {
+    min-width: 86px;
+    letter-spacing: 0.5px;
+}
+
 .img-border {
     border-color:var(--primary-900);
     border-style: solid;
