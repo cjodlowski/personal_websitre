@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
 
 :root {
-    --primary-100: #84BC8B;
+    --primary-100: #77a87d;
     --primary-300: #4A8754;
     --primary-500: #25562E;
     --primary-700: #0D3313;
     --primary-900: #001903;
 
-    --accent-color-1: #f9fdd3;
+    --accent-color-1: #dcfdd3;
     --accent-color-2: #cb6f45;
 
     --sans-serif: 'Oswald', sans-serif;
     --serif: 'IBM Plex Serif', serif;
+}
+
+.second-background {
+ background-color: var(--primary-700);
 }
 
 
@@ -52,6 +56,21 @@ body {
     color: var(--primary-100);
 }
 
+.card-text {
+    color: var(--primary-700)
+}
+
+.card-line-deco {
+    border-color: var(--primary-900);
+    border-width: 4px;
+    margin-top: 0;
+    opacity: 100%;
+}
+
+.card-accent {
+    background-color: var(--accent-color-1);
+}
+
 .p-font-size {
     font-size: 20px;
 }
@@ -62,19 +81,18 @@ body {
 
 .card.override-bs {
     border-radius: 0%;
-    background-color: var(--primary-700);
-    border-color: var(--primary-500);
-    border-width: 4px;
+    background-color: var(--primary-100);
+    border-color: black;
+    border-width: 8px;
+    padding: 0;
+    height: 600px;
 }
 
 .card-header.override-bs {
     border-bottom: 0px;
-    background-color: var(--primary-700);
+    background-color: var(--primary-100);
 }
 
-h1, h2, h3 {
-    font-family: Helvetica
-}
 
 a {
     text-decoration: none;
@@ -82,28 +100,25 @@ a {
 }
 
 a:hover {
-    color: var(--primary-100);
+    color: var(--primary-900);
 }
 
 .img-border {
     border-color:var(--primary-900);
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
     aspect-ratio: 4 / 3;
 }
 
 .btn-primary.override-bs {
     background-color: var(--accent-color-2);
 }
-.top-space {
-    height: 50px
-}
 
 
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: var(--primary-100);
+    color: var(--primary-900);
   }
   
   .hover-underline-animation::after {
@@ -114,7 +129,7 @@ a:hover {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color:var(--primary-100);
+    background-color:var(--primary-900);
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
