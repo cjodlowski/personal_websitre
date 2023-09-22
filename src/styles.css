@@ -65,7 +65,7 @@ body {
 .header-deco {
     -webkit-text-stroke: 0.5px var(--primary-900);
     text-shadow:
-        3px 3px 0 black,
+        2.5px 2px 0 black,
       -1px -1px 0 black,
        1px -1px 0 black,
        -1px 1px 0 black,
