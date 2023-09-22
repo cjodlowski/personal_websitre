@@ -56,6 +56,10 @@ body {
     color: var(--primary-100);
 }
 
+.header-deco {
+    text-shadow: 3px 1px black;
+}
+
 .card-text {
     color: var(--primary-700)
 }
@@ -93,7 +97,6 @@ body {
     background-color: var(--primary-100);
 }
 
-
 a {
     text-decoration: none;
 
@@ -101,6 +104,11 @@ a {
 
 a:hover {
     color: var(--primary-900);
+}
+
+.button-border {
+    border: 4px solid var(--primary-900);
+    border-radius: 0%;
 }
 
 .img-border {

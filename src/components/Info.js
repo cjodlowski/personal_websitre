@@ -12,7 +12,7 @@ class Info extends Component {
                  {/* Header */}
                  <div className="p2">
                     <div className="top-space"></div>
-                    <h1 className="primary-text sans-serif">Claudia Jodlowski</h1>
+                    <h1 className="primary-text header-deco sans-serif">Claudia Jodlowski</h1>
                     <div>
                         <i className="fab fa-linkedin fa-lg icons accent-color-2"></i>
                         <i className="fab fa-github fa-lg icons accent-color-2"></i>
@@ -31,9 +31,9 @@ class Info extends Component {
                     </div>
                     {/*Projects*/}
                     <div className="pt-5 link-text second-background">
-                        <h2 className= "primary-text sans-serif">Projects</h2>
-                        <button className= "btn btn-primary btn-lg override-bs sans-serif m-3">Game</button>
-                        <button className= "btn btn-primary btn-lg override-bs sans-serif m-3">Tech</button>
+                        <h2 className= "primary-text header-deco sans-serif">Projects</h2>
+                        <button className= "btn btn-primary btn-lg override-bs sans-serif button-border m-3">Game</button>
+                        <button className= "btn btn-primary btn-lg override-bs sans-serif button-border m-3">Tech</button>
                         <div className="row justify-content-center">
                             {projects.map((project) => {
                                 return <ProjectCard item={project}></ProjectCard>
@@ -42,7 +42,7 @@ class Info extends Component {
                     </div>
                     {/*Resume*/}
                     <div className="pt-5 mb-5">
-                        <a type="button" href="JodlowskiClaudia_Resume.docx" class="btn btn-primary btn-lg override-bs" download>Check Out My Resume</a>
+                        <a type="button" href="JodlowskiClaudia_Resume.docx" class="btn btn-primary btn-lg override-bs button-border" download>Check Out My Resume</a>
                     </div>
                  </div>
     
