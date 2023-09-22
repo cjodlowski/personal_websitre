@@ -26,11 +26,10 @@ class Info extends Component {
                     {/* About me */}
                     <div className="pt-4 ps-5 text-start">
                         <h2 className= "primary-text sans-serif">Hey There!</h2>
-                        <p className="text-start primary-text serif p-font-size"></p>
-                        <p className="text-start primary-text serif p-font-size">Blah blah ik how to talk aboutmyself totally</p>
+                        <p className="text-start secondary-text serif p-font-size my-4">Blah blah ik how to talk aboutmyself totally</p>
                     </div>
                     {/*Projects*/}
-                    <div className="pt-5 link-text second-background">
+                    <div className="link-text second-background">
                         <h2 className= "primary-text header-deco sans-serif">Projects</h2>
                         <div className="align-items-center">
                             <button className= "btn btn-primary btn-lg override-bs sans-serif button-border project-button m-3">Game</button>
