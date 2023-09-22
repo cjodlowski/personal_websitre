@@ -8,9 +8,9 @@ import { projects } from "../projects";
 class Info extends Component {
     render() {
         return(
-            <div className="col-12 col-md-8 col-lg-8 col-xl-8 my-2 d-flex justify-content-center text-center p-0">
+            <div className="col-12 col-md-8 col-lg-8 col-xl-8 d-flex justify-content-center text-center py-4 body-border">
                  {/* Header */}
-                 <div className="p2">
+                 <div>
                     <div className="top-space"></div>
                     <h1 className="primary-text header-deco sans-serif">Claudia Jodlowski</h1>
                     <div>
