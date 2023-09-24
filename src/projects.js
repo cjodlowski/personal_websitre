@@ -1,4 +1,21 @@
-export const projects = [
+export const tech = [
+
+    {
+        title: "SDL Platformer Game Engine",
+        logo: "images/IC.png",
+        summary: "summary summary",
+        bullets: [
+            "one thing",
+            "two thing"
+        ],
+        link: {
+            ref: "#",
+            text: "Click me!"
+        }
+    }
+]
+
+export const games = [
     {
         title: "Swapper!",
         logo: "images/swapper.png",
@@ -9,7 +26,7 @@ export const projects = [
             "Current focus is tweaking mechanics and menu implementation"
         ],
         link: {
-            ref:"#",
+            ref: "#",
             text: "Click me!"
         }
     },
@@ -22,7 +39,7 @@ export const projects = [
             "two thing"
         ],
         link: {
-            ref:"#",
+            ref: "#",
             text: "Click me!"
         }
     },
@@ -35,7 +52,7 @@ export const projects = [
             "two thing"
         ],
         link: {
-            ref:"#",
+            ref: "#",
             text: "Click me!"
         }
     },
@@ -48,20 +65,7 @@ export const projects = [
             "two thing"
         ],
         link: {
-            ref:"#",
-            text: "Click me!"
-        }
-    },
-    {
-        title: "SDL Platformer Game Engine",
-        logo: "images/IC.png",
-        summary: "summary summary",
-        bullets: [
-            "one thing",
-            "two thing"
-        ],
-        link: {
-            ref:"#",
+            ref: "#",
             text: "Click me!"
         }
     }
