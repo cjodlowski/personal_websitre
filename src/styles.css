@@ -38,10 +38,12 @@ html, body {
 
 body {
     background-color: var(--primary-700);
+    /* background-image: url("\\images\\preview.jpg"); */
 }
 
 .border-color {
     background-color: var(--primary-500);
+    /* opacity: 25%; */
 }
 
 .body-border {

@@ -8,9 +8,9 @@ import { games, tech } from "../projects";
 
 function Info() {
     let [activeTab, setActiveTab] = useState("tech");
-    
+
     return(
-        <div className="col-12 col-md-8 col-lg-8 col-xl-8 justify-content-center text-center py-4 body-border">
+        <div className="col-12 col-md-8 col-lg-8 col-xl-8 justify-content-center text-center py-4 body-border second-background">
                 {/* Header */}
                 <div>
                 <div className="top-space"></div>
@@ -31,7 +31,7 @@ function Info() {
                     <p className="text-start secondary-text serif p-font-size my-4">Blah blah ik how to talk aboutmyself totally</p>
                 </div>
                 {/*Projects*/}
-                <div className="link-text second-background">
+                <div className="link-text">
                     <h2 className= "primary-text header-deco sans-serif">Projects</h2>
                     <div className="align-items-center">
                         <button className= "btn btn-primary btn-lg override-bs sans-serif button-border project-button m-3"
