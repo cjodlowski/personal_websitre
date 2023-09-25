@@ -130,6 +130,21 @@ body {
     height: 100%;
 }
 
+.card-caret {
+    padding: 4px;
+    color: var(primary-900);
+    cursor: pointer;
+    
+}
+
+.card-caret.rotate-down {
+    transform : rotate(0deg);
+}
+
+.card-caret.rotate-right {
+    transform : rotate(-90deg);
+}
+
 a {
     text-decoration: none;
 
