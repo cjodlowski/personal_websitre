@@ -7,7 +7,7 @@ import { games, tech } from "../projects";
 
 
 function Info() {
-    let [activeTab, setActiveTab] = useState("tech");
+    let [activeTab, setActiveTab] = useState("games");
 
     return(
         <div className="col-12 col-md-8 col-lg-8 col-xl-8 justify-content-center text-center py-4 body-border second-background">

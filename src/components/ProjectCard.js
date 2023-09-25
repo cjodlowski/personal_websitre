@@ -3,15 +3,21 @@ import React, { Component } from "react";
 import '../vendors/bootstrap/css/bootstrap.min.css'
 import '../vendors/fontawesome/css/all.min.css'
 
-function ProjectCard({item, dir}) {
+function ProjectCard({item}) {
     
     return(
         <>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
             <div class=" col-11 col-sm-10 col-lg-5 col-xxl-4 card override-bs mb-3 mx-2">
-                <h3 className="card-accent pb-1 m-0"><a className="primary-text sans-serif my-2 hover-underline-animation" href={item.link.ref}>{item.title}</a></h3>
+                <h3 className="card-accent pl-2 pb-1 m-0">
+                    <span className="primary-text sans-serif ml-2 my-2 hover-underline-animation">{item.title}</span>
+                    {item.icons.map((icon) => {
+                        return <i className={`${icon} card-icons d-inline`}></i>
+                    })}
+                </h3>
                 <hr className="card-line-deco"></hr>
                 <div class="card-header override-bs">
-                    <img src={item.logo} alt="logo"className="img-border card-img-style"></img>
+                    <img src={item.screenshot} alt="logo"className="img-border card-img-style"></img>
                 </div>
                 <div class="card-body">
                     <h5 class="card-text serif">{item.summary}</h5>
