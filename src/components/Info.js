@@ -22,8 +22,9 @@ function Info() {
                     <i className="fab  fa-twitter fa-lg icons accent-color-2"></i>
                     <i className="fas fa-solid fa-envelope fa-lg icons accent-color-2"></i>
                 </div>
-                <p> <a className="link-text serif">cnjodlowski@gmail.com</a> &nbsp;&nbsp;&nbsp;
-                <a className="link-text serif">(732) - 540 - 3526 </a>
+                <p> 
+                    <a className="link-text serif">cnjodlowski@gmail.com</a> &nbsp;&nbsp;&nbsp;
+                    <a className="link-text serif">(732) - 540 - 3526 </a>
                 </p>
                 {/* About me */}
                 <div className="pt-4 ps-5 text-start">
