@@ -52,7 +52,7 @@ function Info() {
                 </div>
                 {/*Resume*/}
                 <div className="pt-5 mb-5">
-                    <a type="button" href="JodlowskiClaudia_Resume.docx" class="btn btn-primary btn-lg override-bs sans-serif button-border" download>Check Out My Resume</a>
+                    <a type="button" href="JodlowskiClaudia_Resume.docx" className="btn btn-primary btn-lg override-bs sans-serif button-border" download>Check Out My Resume</a>
                 </div>
                 </div>
 

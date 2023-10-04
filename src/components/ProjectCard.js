@@ -12,7 +12,7 @@ function ProjectCard({item}) {
         <>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
             {/* Hide On Screens Smaller Than Large - What We Had Before */}
-            <div class={` col-11 col-sm-10 col-lg-5 col-xxl-4 card override-bs mb-3 mx-2 d-none d-lg-block`}>
+            <div className={` col-11 col-sm-10 col-lg-5 col-xxl-4 card override-bs mb-3 mx-2 d-none d-lg-block`}>
                 <h3 className="card-accent pl-2 pb-1 m-0">
                     <span className="primary-text sans-serif ml-2 my-2 hover-underline-animation">{item.title}</span>
                     {item.icons.map((icon) => {
@@ -20,11 +20,11 @@ function ProjectCard({item}) {
                     })}
                 </h3>
                 <hr className="card-line-deco"></hr>
-                <div class="card-header override-bs">
+                <div className="card-header override-bs">
                     <img src={item.screenshot} alt="logo"className="img-border card-img-style"></img>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-text serif">{item.summary}</h5>
+                <div className="card-body">
+                    <h5 className="card-text serif">{item.summary}</h5>
                     <ul className="m-0">
                         {item.bullets.map((bullet) => {
                             return <li className="card-text serif text-start">{bullet}</li>
@@ -37,7 +37,7 @@ function ProjectCard({item}) {
             </div>
 
             {/* Hide On Screens Larger Than Large - Title Only */}
-            <div class={` col-11 col-sm-10 mb-3 mx-2 d-lg-none   ${showDetails ? "d-none" : ""}`}>
+            <div className={` col-11 col-sm-10 mb-3 mx-2 d-lg-none   ${showDetails ? "d-none" : ""}`}>
                 <h3 className="card-accent card-mini-header pl-2 pb-1 m-0" onClick={() => {
                         setShowDetails(!showDetails)
                     }} tabindex={0}>
@@ -50,7 +50,7 @@ function ProjectCard({item}) {
             </div>
 
             {/* Hide On Screens Larger Than Large - Full Card Details*/}
-            <div class={` col-11 col-sm-10 col-lg-5 col-xxl-4 card override-bs mb-3 mx-2  d-lg-none ${!showDetails ? "d-none" : ""}`}>
+            <div className={` col-11 col-sm-10 col-lg-5 col-xxl-4 card override-bs mb-3 mx-2  d-lg-none ${!showDetails ? "d-none" : ""}`}>
                 <h3 className="card-accent pl-2 pb-1 m-0">
                     <i className ={`fas fa-solid fa-caret-down card-caret ${showDetails ? "rotate-down" : "rotate-right"}`} onClick={() => {
                         setShowDetails(!showDetails)
@@ -61,11 +61,11 @@ function ProjectCard({item}) {
                     })}
                 </h3>
                 <hr className="card-line-deco"></hr>
-                <div class="card-header override-bs">
+                <div className="card-header override-bs">
                     <img src={item.screenshot} alt="logo"className="img-border card-img-style"></img>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-text serif">{item.summary}</h5>
+                <div className="card-body">
+                    <h5 className="card-text serif">{item.summary}</h5>
                     <ul className="m-0">
                         {item.bullets.map((bullet) => {
                             return <li className="card-text serif text-start">{bullet}</li>
