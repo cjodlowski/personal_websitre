@@ -115,7 +115,8 @@ body {
     border-color: black;
     border-width: 8px;
     padding: 0;
-    height: 600px;
+    width: 28rem;
+    height: 38rem;
     box-shadow: 5px 5px 0px black;
     transition: box-shadow .3s;
 }
@@ -127,12 +128,12 @@ body {
 .card-header.override-bs {
     border-bottom: 0px;
     background-color: var(--primary-100);
-    height: 30%;
+    height: 12rem;
 }
 
 .card-img-style {
-    width: 90%;
-    height: 100%;
+    width: 20rem;
+    height: 12rem;
 }
 
 .card-caret {
@@ -163,7 +164,7 @@ body {
 
 a {
     text-decoration: none;
-
+    cursor: pointer;
 }
 
 a:hover {
