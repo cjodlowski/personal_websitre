@@ -96,6 +96,16 @@ body {
     color: var(--primary-900);
 }
 
+.card-icons-svp {
+    margin-right: 8px;
+    padding-top: 10px;
+    color: var(--primary-900);
+}
+
+.card-icons-div {
+    margin-left: 30px;
+}
+
 .link-text {
     color: var(--primary-300)
 }
@@ -150,10 +160,6 @@ body {
 
 .card-mini-header:focus {
     box-shadow: 10px 10px 0px black;
-}
-
-.card-icons-div {
-    margin-left: 20px;
 }
 
 a {

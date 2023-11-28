@@ -45,10 +45,9 @@ function ProjectCard({item}) {
                     <span className="card-title text-break sans-serif ml-2 my-2 hover-underline-animation">{item.title}</span>
                     <div className="card-icons-div">
                         {item.icons.map((icon) => {
-                            return <i className={`${icon} card-icons d-inline`}></i>
+                            return <i className={`${icon} card-icons-svp d-inline`}></i>
                         })}
                     </div>
-
                 </h3>
             </div>
 
@@ -61,7 +60,7 @@ function ProjectCard({item}) {
                     <span className="card-title text-break sans-serif ml-2 my-2 hover-underline-animation">{item.title}</span>
                     <div className="card-icons-div">
                         {item.icons.map((icon) => {
-                            return <i className={`${icon} card-icons d-inline`}></i>
+                            return <i className={`${icon} card-icons-svp d-inline`}></i>
                         })}
                     </div>
 
