@@ -36,7 +36,7 @@ function Info() {
                     <h2 className= "primary-text header-deco sans-serif">Projects</h2>
                     <div className="align-items-center">
                         <button className= "btn btn-primary btn-lg override-bs sans-serif button-border project-button m-3"
-                            onClick={() => setActiveTab("games")} >Game</button>
+                            onClick={() => setActiveTab("games")} >Games</button>
                         <button className= "btn btn-primary btn-lg override-bs sans-serif button-border project-button m-3"
                             onClick={() => setActiveTab("tech")}>Tech</button>
                     </div>

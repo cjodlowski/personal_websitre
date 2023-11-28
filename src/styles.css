@@ -99,7 +99,11 @@ body {
     float: right !important;
     margin-right: 8px;
     padding-top: 10px;
-    color: var(--primary-900)
+    color: var(--primary-900);
+}
+
+.card-title {
+    font-size:clamp(1rem, 1.5rem, 1.5rem)
 }
 
 .p-font-size {
@@ -110,14 +114,18 @@ body {
     color: var(--primary-300)
 }
 
+.card-body.override-bs {
+    height: 52%;
+}
+
 .card.override-bs {
     border-radius: 0%;
     background-color: var(--primary-100);
     border-color: black;
     border-width: 8px;
     padding: 0;
-    width: 28rem;
-    height: 38rem;
+    width: 30vw;
+    height: 40rem;
     box-shadow: 5px 5px 0px black;
     transition: box-shadow .3s;
 }
@@ -126,15 +134,10 @@ body {
     box-shadow: 10px 10px 0px black;
 }
 
-.card-header.override-bs {
-    border-bottom: 0px;
-    background-color: var(--primary-100);
-    height: 12rem;
-}
-
 .card-img-style {
-    width: 20rem;
-    height: 12rem;
+    aspect-ratio: 16/9;
+    min-height: 10rem;
+    width: 90%;
 }
 
 .card-caret {
@@ -163,6 +166,54 @@ body {
     box-shadow: 10px 10px 0px black;
 }
 
+
+.card-body-mobile {
+    height: 55%;
+}
+
+.card-mobile {
+    border-radius: 0%;
+    background-color: var(--primary-100);
+    border-color: black;
+    border-width: 8px;
+    padding: 0;
+    width: 90% !important;
+    height: 45rem;
+    box-shadow: 5px 5px 0px black;
+    transition: box-shadow .3s;
+}
+
+.card-mobile:hover {
+    box-shadow: 10px 10px 0px black;
+}
+
+.card-img-style-mobile {
+    aspect-ratio: 16/9;
+    width: 90%;
+    min-height: 6rem;
+}
+
+.card-header-mobile {
+    border: 8px black solid;
+    box-shadow: 5px 5px 0px black;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card-header-mobile:focus {
+    box-shadow: 10px 10px 0px black;
+}
+
+.card-icons-div {
+    margin-left: 20px;
+}
+
+.card-icons-mobile {
+    margin-right: 8px;
+    padding-top: 10px;
+    color: var(--primary-900);
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -187,7 +238,6 @@ a:hover {
     border-color:var(--primary-900);
     border-style: solid;
     border-width: 4px;
-    aspect-ratio: 4 / 3;
 }
 
 .btn-primary.override-bs {
