@@ -75,7 +75,9 @@ function ProjectCard({item}) {
                         })}
                     </ul>
                 </div>
-                <button className="mb-4 btn btn-primary btn-lg override-bs sans-serif button-border project-button" onClick={ () => window.open(item.link)}>Check it out</button>
+                <div>
+                    <button className="mb-4 btn btn-primary btn-lg override-bs sans-serif button-border project-button" onClick={ () => window.open(item.link)}>Check it out</button>
+                </div>
             </div>
         </>
     )    

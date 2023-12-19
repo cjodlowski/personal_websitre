@@ -133,7 +133,8 @@ body {
 
 .card-img-style {
     aspect-ratio: 16/9;
-    max-width: 90%
+    width: 90%;
+    object-fit: cover;
 }
 
 .card-caret {
