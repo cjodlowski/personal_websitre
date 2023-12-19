@@ -53,10 +53,10 @@ export const games = [
     {
         title: "Inconvenience Store",
         screenshot: "images/IC.png",
-        summary: "",
+        summary: "An accurate depiction of grocery shopping in a future Metaverse",
         bullets: [
-            "one thing",
-            "two thing"
+            "Game Development Capstone",
+            ""
         ],
         link: "#",
         icons: [
@@ -70,8 +70,8 @@ export const games = [
         screenshot: "images/IC.png",
         summary: "summary summary",
         bullets: [
-            "one thing",
-            "two thing"
+            "Submission to GGJ 2021",
+            ""
         ],
         link: "#",
         icons: [
