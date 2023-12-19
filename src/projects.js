@@ -1,30 +1,33 @@
 export const tech = [
 
     {
-        title: "SDL Platformer Game Engine",
-        screenshot: "images/IC.png",
-        summary: "summary summary",
+        title: "2D Game Engine",
+        screenshot: "images/ge.png",
+        summary: "A 2D game engine used to create and save custom playable platformer levels.",
         bullets: [
-            "one thing",
-            "two thing"
+            "Created a component system to give objects transforms, collisions, input detection, etc.",
+            "Included a Sprite Editor which animates a given spritesheet",
+            "Included a Tilemap Editor that allows for level editing while paused"
         ],
-        link: "#",
+        link: "https://cjodlowski.github.io/CS4850FinalProjectWebsite/index.html",
         icons: [
             "devicon-cplusplus-line",
-            "devicon-python-plain"
+            "devicon-python-plain",
+            "devicon-sdl-plain"
         ]
     },
     {
-        title: "SDL Wind Shader",
-        screenshot: "images/IC.png",
-        summary: "summary summary",
+        title: "Wind Shader",
+        screenshot: "images/leaf.png",
+        summary: "An OpenGL shader that creates a wind effect on a sprite",
         bullets: [
-            "one thing",
-            "two thing"
+            "Fragment Shader uses a sin function with a horizontal mouse position variable multiplier to modify the texture coordinates displayed",
+            "Base SDL Program allows user to view different sprites using 1-3 to switch between them"
         ],
-        link: "#",
+        link: "https://github.com/Fall21Graphics/finalproject-claudiateam",
         icons: [
             "devicon-cplusplus-line",
+            "devicon-sdl-plain",
             "devicon-opengl-plain"
         ]
     }
