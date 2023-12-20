@@ -40,8 +40,8 @@ export const games = [
         summary: "A competitive rhythm based arcade game - shoot opponents to teleport them into hazards!",
         bullets: [
             "Took over the project as main programmer",
-            "My Introduction to local multiplayer and the new unity input system",
-            "Current focus is tweaking mechanics and menu implementation"
+            "Introduction to local multiplayer and the new unity input system",
+            "Current focus is tweaking existing mechanics, bug fixes, and menu implementation"
         ],
         link: "#",
         icons: [
@@ -53,10 +53,11 @@ export const games = [
     {
         title: "Inconvenience Store",
         screenshot: "images/IC.png",
-        summary: "An accurate depiction of grocery shopping in a future Metaverse",
+        summary: "An accurate depiction of grocery shopping in the Metaverse",
         bullets: [
-            "Game Development Capstone",
-            ""
+            "Game Development Capstone Presented in University Showcase",
+            "First multi-month solo-dev project where I handled Project Management, Design, Programming, and 3D Modeling",
+            "Learned basic 3D modeling and texture creation",
         ],
         link: "#",
         icons: [
@@ -68,10 +69,11 @@ export const games = [
     {
         title: "Good Housekeyping",
         screenshot: "images/IC.png",
-        summary: "summary summary",
+        summary: "Find the keys to your new home in a absurd pile of boxes",
         bullets: [
-            "Submission to GGJ 2021",
-            ""
+            "Submission to Global Game Jam 2021",
+            "Co-Programmer mainly focused on level generation and some mechanics and tool programming",
+            "Worked on Start, Win, and Game Over conditions"
         ],
         link: "#",
         icons: [
