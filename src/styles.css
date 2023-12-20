@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif');
 
 :root {
-    --primary-100: #77a87d;
+    --primary-100: #A9D6AE;
     --primary-300: #4A8754;
     --primary-500: #25562E;
     --primary-700: #0D3313;
@@ -110,6 +110,9 @@ body {
     color: var(--primary-300)
 }
 
+.link-text:hover {
+    color: var(--primary-100)
+}
 .card.override-bs {
     border-radius: 0%;
     background-color: var(--primary-100);

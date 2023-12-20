@@ -23,13 +23,14 @@ function Info() {
                     <i className="fas fa-solid fa-envelope fa-lg icons accent-color-2"></i>
                 </div>
                 <p> 
-                    <a className="link-text serif">cnjodlowski@gmail.com</a> &nbsp;&nbsp;&nbsp;
+                    <a className="link-text serif" href="mailto:cnjodlowski@gmail.com">cnjodlowski@gmail.com</a> &nbsp;&nbsp;&nbsp;
                     <a className="link-text serif">(732) - 540 - 3526 </a>
                 </p>
                 {/* About me */}
                 <div className="pt-4 ps-5 text-start">
-                    <h2 className= "primary-text sans-serif">Hey There!</h2>
-                    <p className="text-start secondary-text serif p-font-size my-4">Blah blah ik how to talk aboutmyself totally</p>
+                    <h2 className= "primary-text sans-serif">Hello!</h2>
+                    <p className="text-start secondary-text serif p-font-size my-4">This my house, entry please.</p>
+                    <p className="text-start secondary-text serif p-font-size my-4">My name is Claudia, and I am currently a Software Engineer at UPS.</p>
                 </div>
                 {/*Projects*/}
                 <div className="link-text">
@@ -42,12 +43,12 @@ function Info() {
                     </div>
                     <div className={`row justify-content-center ${activeTab !== "games" ? 'd-none' : ''}`}>
                         {games.map((game) => {
-                            return <ProjectCard item={game} direction="left"></ProjectCard>
+                            return <ProjectCard item={game}></ProjectCard>
                         })}
                     </div>
                     <div className={`row justify-content-center ${activeTab !== "tech" ? 'd-none' : ''}`}>
                         {tech.map((project) => {
-                            return <ProjectCard item={project} direction="right"></ProjectCard>
+                            return <ProjectCard item={project}></ProjectCard>
                         })}
                     </div>
                 </div>
