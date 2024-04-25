@@ -28,9 +28,8 @@ function Info() {
                 </p>
                 {/* About me */}
                 <div className="pt-4 ps-5 text-start">
-                    <h2 className= "primary-text sans-serif">Hello!</h2>
-                    <p className="text-start secondary-text serif p-font-size my-4">This my house, entry please.</p>
-                    <p className="text-start secondary-text serif p-font-size my-4">My name is Claudia, and I am currently a Software Engineer at UPS.</p>
+                    <h2 className= "primary-text header-deco sans-serif">Hello!</h2>
+                    <p className="text-start secondary-text serif p-font-size my-4"></p>
                 </div>
                 {/*Projects*/}
                 <div className="link-text">
