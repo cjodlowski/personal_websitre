@@ -27,9 +27,35 @@ function Info() {
                     <a className="link-text serif">(732) - 540 - 3526 </a>
                 </p>
                 {/* About me */}
-                <div className="pt-4 ps-5 text-start">
-                    <h2 className= "primary-text header-deco sans-serif">Hello!</h2>
-                    <p className="text-start secondary-text serif p-font-size my-4"></p>
+                <div className="row justify-content-center">
+                    <div className={`card info-card-width-lvp override-bs mb-3 mx-2 d-block`}>
+                        <div className="pt-4 ps-4 text-start">
+                            <h2 className= "primary-content-text sans-serif">Hello!</h2>
+                            <p className="text-start secondary-text serif p-font-size my-4"></p>
+                        </div>
+                    </div>
+                </div>
+                {/* Current Status */}
+                <div className="row justify-content-center">
+                    <div className={`card info-card-width-lvp override-bs mb-3 mx-2 d-block`}>
+                        <div className="pt-4 ps-4 text-start">
+                            <h2 className= "primary-content-text sans-serif">Current Status</h2>
+                            <h4>
+                                <span className= "primary-content-text sans-serif">Software Development Engineer I - Tracking Visiblity at UPS</span>
+                                <i className={`devicon-csharp-line primary-content-icons d-inline`}></i>
+                                <i className={`devicon-dot-net-plain-wordmark primary-content-icons d-inline`}></i>
+                            </h4>
+                            <h5 className= "primary-content-text sans-serif">October 2022 - Present</h5>
+                            <ul className="mb-2">
+                                <li className="text-start primary-content-text serif p-font-size my-2"><h6>Modernized Mail Innovations Notifications API from SOAP to RESTful</h6></li>
+                                <li className="text-start primary-content-text serif p-font-size my-2"><h6>Modernized services to use OAuth header Authentication</h6></li>
+                                <li className="text-start primary-content-text serif p-font-size my-2"><h6>Blah</h6></li>
+                                <li className="text-start primary-content-text serif p-font-size my-2"><h6>Blah</h6></li>
+                                <li className="text-start primary-content-text serif p-font-size my-2"><h6>Blah</h6></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
                 </div>
                 {/*Projects*/}
                 <div className="link-text">

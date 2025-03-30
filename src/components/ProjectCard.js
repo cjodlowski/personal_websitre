@@ -35,8 +35,8 @@ function ProjectCard({item}) {
             </div>
 
             {/* Mobile View- Title Only */}
-            <div className={` card-width-svp mb-2 mx-2 d-lg-none   ${showDetails ? "d-none" : ""}`}>
-                <h3 className="card-accent card-mini-header  text-break sans-serif pl-2 pb-1 m-0" onClick={() => {
+            <div className={` card card-width-svp override-bs mb-3 mx-2 d-lg-none ${showDetails ? "d-none" : ""}`}>
+                <h3 className="card-accent text-break sans-serif pl-2 pb-1 m-0" onClick={() => {
                         setShowDetails(!showDetails)
                     }} tabindex={0}>
                     <i className ={`fas fa-solid fa-caret-down card-caret ${showDetails ? "rotate-down" : "rotate-right"}`} ></i>

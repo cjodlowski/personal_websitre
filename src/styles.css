@@ -38,8 +38,11 @@ body {
 }
 
 .border-color {
-    background-color: var(--primary-500);
+    background-color: #25562E;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #0D331355 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #0D3313 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #0D331355 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #0D3313 25%, #25562E 25%) 0px 0/ 20px 20px;
 }
+
 
 .body-border {
     border: 10px solid black;
@@ -57,6 +60,15 @@ body {
 
 .primary-text {
     color: var(--accent-color-1);
+}
+
+.primary-content-text {
+    color: var(--primary-700);
+}
+
+.primary-content-icons {
+    margin-left: 8px;
+    color: var(--primary-900);
 }
 
 .secondary-text {
@@ -115,7 +127,6 @@ body {
 }
 .card.override-bs {
     border-radius: 0%;
-    background-color: var(--primary-100);
     border-color: black;
     border-width: 8px;
     padding: 0;
@@ -123,10 +134,17 @@ body {
     transition: box-shadow .3s;
 }
 
+.info-card-width-lvp {
+    max-width: 90% !important;
+    background-color: var(--primary-100);
+}
+
 .card-width-lvp {
+    background-color: var(--primary-100);
     max-width: 45% !important
 }
 .card-width-svp {
+    background-color: var(--primary-100);
     max-width: 90% !important
 }
 
@@ -156,7 +174,6 @@ body {
 }
 
 .card-mini-header {
-    border: 8px black solid;
     box-shadow: 5px 5px 0px black;
     transition: box-shadow 0.3s;
     cursor: pointer;

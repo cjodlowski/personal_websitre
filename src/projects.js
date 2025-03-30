@@ -68,7 +68,7 @@ export const games = [
     },
     {
         title: "Good Housekeyping",
-        screenshot: "images/IC.png",
+        screenshot: "images/GH.png",
         summary: "Find the keys to your new home in a absurd pile of boxes",
         bullets: [
             "Submission to Global Game Jam 2021",
